@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .upload_zone {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        #drop_zone {
+            border: 2px dashed #bbb;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+            padding: 25px;
+            text-align: center;
+            font: 20pt bold, 'Arial';
+            color: #bbb;
+        }
+        .thumb {
+            height: 100px;
+            border: 1px solid #000;
+            margin: 10px 5px 0 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="upload_zone">
+    <div id="drop_zone">Drop files here</div>
+    <output id="list"></output>
+</div>
+
+<script src="./dist/DragAndDropUploadFiles.js"></script>
+</body>
+</html>
